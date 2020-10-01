@@ -47,3 +47,16 @@ False
 >>> 
 ======== RESTART: /Users/joecolonna/Documents/Python/Python practice.py ========
 Please enter a test score: 
+
+numberofscores = 0
+score = 0
+total = 0
+average = 0
+scorecount = 0
+numberofscores = int (input("Please enter the number of scores you want to average"))
+For score = int(input("please enter a score: "))
+total = total + score
+scorecount = scorecount + 1
+
+average = total / numberofscores
+print (average)
